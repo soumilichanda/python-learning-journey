@@ -1,6 +1,6 @@
 # Python Learning Journey 🚀
 
-A structured repository documenting daily Python concepts, code implementations, Data Structures & Algorithms (DSA), and hands-on mini-projects.
+A structured repository documenting daily Python concepts, code implementations, Data Structures & Algorithms (DSA), and hands-on mini-projects.[cite: 7]
 
 ---
 
@@ -67,18 +67,28 @@ python-learning-journey/
 │       ├── numpy_basics.py           # 1D/2D array inspection & reshaping
 │       └── student_performance.py    # 2D array statistics across axes
 │
-└── day7/
+├── day7/
+│   ├── DSA/
+│   │   ├── binary_search.py          # Iterative & recursive binary search
+│   │   ├── floor_and_ceiling.py      # Bound search in sorted array
+│   │   └── search_insert_position.py # Insertion index finder
+│   │
+│   ├── Mini_Projects/
+│   │   └── sensor_analyzer.py        # Pipeline: Noise cleaning, imputation & search benchmark
+│   │
+│   └── NumPy/
+│       ├── boolean_masking.py        # Outlier filtering and imputation
+│       └── broadcasting_basics.py    # Dimension expansion & row/col operations
+│
+└── day8/
     ├── DSA/
-    │   ├── binary_search.py          # Iterative & recursive binary search
-    │   ├── floor_and_ceiling.py      # Bound search in sorted array
-    │   └── search_insert_position.py # Insertion index finder
+    │   ├── remove_element.py         # Two-pointer in-place removal (LeetCode 27)
+    │   ├── two_sum_sorted.py         # Two-pointer pair sum on sorted array (LeetCode 167)
+    │   └── valid_palindrome.py       # Inward two-pointer palindrome verification
     │
-    ├── Mini_Projects/
-    │   └── sensor_analyzer.py        # Pipeline: Noise cleaning, imputation & search benchmark
-    │
-    └── NumPy/
-        ├── boolean_masking.py        # Outlier filtering and imputation
-        └── broadcasting_basics.py    # Dimension expansion & row/col operations
+    └── Pandas/
+        ├── data_inspection.py        # Profiling via head, tail, info, and describe
+        └── series_and_dataframes.py  # Series indexing and DataFrame creation
 ```
 
 ---
