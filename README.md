@@ -56,16 +56,29 @@ python-learning-journey/
 │   └── Mini_Projects/
 │       └── stack_queue_simulator.py  # Menu-driven Stack & Queue console emulator
 │
-└── day6/
+├── day6/
+│   ├── DSA/
+│   │   ├── count_occurrences.py      # Target frequency count without .count()
+│   │   ├── frequency_counter.py      # Full frequency map via dictionary
+│   │   ├── linear_search.py          # Linear search with O(n) complexity note
+│   │   └── second_largest.py         # Single-pass second maximum finder
+│   │
+│   └── NumPy/
+│       ├── numpy_basics.py           # 1D/2D array inspection & reshaping
+│       └── student_performance.py    # 2D array statistics across axes
+│
+└── day7/
     ├── DSA/
-    │   ├── count_occurrences.py      # Target frequency count without .count()
-    │   ├── frequency_counter.py      # Full frequency map via dictionary
-    │   ├── linear_search.py          # Linear search with O(n) complexity note
-    │   └── second_largest.py         # Single-pass second maximum finder
+    │   ├── binary_search.py          # Iterative & recursive binary search
+    │   ├── floor_and_ceiling.py      # Bound search in sorted array
+    │   └── search_insert_position.py # Insertion index finder
+    │
+    ├── Mini_Projects/
+    │   └── sensor_analyzer.py        # Pipeline: Noise cleaning, imputation & search benchmark
     │
     └── NumPy/
-        ├── numpy_basics.py           # 1D/2D array inspection & reshaping
-        └── student_performance.py    # 2D array statistics across axes
+        ├── boolean_masking.py        # Outlier filtering and imputation
+        └── broadcasting_basics.py    # Dimension expansion & row/col operations
 ```
 
 ---
