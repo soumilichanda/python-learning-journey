@@ -1,6 +1,6 @@
 # Python Learning Journey 🚀
 
-A structured repository documenting daily Python concepts, code implementations, Data Structures & Algorithms (DSA), and hands-on mini-projects.[cite: 7]
+A structured repository documenting daily Python concepts, code implementations, Data Structures & Algorithms (DSA), and hands-on mini-projects.
 
 ---
 
@@ -71,7 +71,7 @@ python-learning-journey/
 │   ├── DSA/
 │   │   ├── binary_search.py          # Iterative & recursive binary search
 │   │   ├── floor_and_ceiling.py      # Bound search in sorted array
-│   │   └── search_insert_position.py # Insertion index finder
+│   │   └── search_insert_position.py # Target search and insertion index finder
 │   │
 │   ├── Mini_Projects/
 │   │   └── sensor_analyzer.py        # Pipeline: Noise cleaning, imputation & search benchmark
@@ -80,15 +80,25 @@ python-learning-journey/
 │       ├── boolean_masking.py        # Outlier filtering and imputation
 │       └── broadcasting_basics.py    # Dimension expansion & row/col operations
 │
-└── day8/
+├── day8/
+│   ├── DSA/
+│   │   ├── remove_element.py         # Two-pointer in-place value removal
+│   │   ├── two_sum_sorted.py         # Two-pointer pair sum on sorted array
+│   │   └── valid_palindrome.py       # Inward two-pointer palindrome verification
+│   │
+│   └── Pandas/
+│       ├── data_inspection.py        # Profiling via head, tail, info, and describe
+│       └── series_and_dataframes.py  # Series indexing and DataFrame creation
+│
+└── day9/
     ├── DSA/
-    │   ├── remove_element.py         # Two-pointer in-place removal (LeetCode 27)
-    │   ├── two_sum_sorted.py         # Two-pointer pair sum on sorted array (LeetCode 167)
-    │   └── valid_palindrome.py       # Inward two-pointer palindrome verification
+    │   ├── contains_duplicate_ii.py  # Sliding window with set for nearby duplicates
+    │   ├── max_sum_subarray.py       # Fixed-size sliding window (size k)
+    │   └── smallest_subarray_sum.py  # Dynamic-size sliding window (target sum)
     │
     └── Pandas/
-        ├── data_inspection.py        # Profiling via head, tail, info, and describe
-        └── series_and_dataframes.py  # Series indexing and DataFrame creation
+        ├── filtering_selection.py    # Conditional filtering, .loc vs .iloc indexing
+        └── handling_missing_data.py  # isna(), fillna(), dropna(), and forward/backward fill      
 ```
 
 ---
