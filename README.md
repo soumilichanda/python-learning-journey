@@ -9,13 +9,13 @@ A structured repository documenting daily Python concepts, code implementations,
 ```text
 python-learning-journey/
 │
-├── day1/
+├── day01/
 │   ├── calculator.py          # Basic arithmetic CLI calculator
 │   ├── hello.py               # Intro syntax & output formatting
 │   ├── marks_analyzer.py      # Grade calculation & conditional logic
 │   └── welcome.py             # User input & greeting scripts
 │
-├── day2/
+├── day02/
 │   ├── abc.py                 # Persistent student record manager with file storage
 │   ├── arr.py                 # Manual list iterations, min, max & average
 │   ├── calcfunc.py            # Modular function-based calculator with error handling
@@ -25,14 +25,14 @@ python-learning-journey/
 │   ├── student_marks.py       # In-memory dictionary-based student record processor
 │   └── student_records.txt    # Text-based flat-file storage
 │
-├── day3/
+├── day03/
 │   ├── case.py                # String case methods & character length logic
 │   ├── file.py                # File read/write operations via context managers
 │   ├── notes.txt              # Sample user profile text data file
 │   ├── pro3.py                # Menu-driven student record file saver
 │   └── student_records.txt    # Appended student text database
 │
-├── day4/
+├── day04/
 │   ├── bank.py                # Bank account class (encapsulation demo)
 │   ├── book.py                # Library book tracking system
 │   ├── car.py                 # Vehicle class methods & initialization
@@ -42,7 +42,7 @@ python-learning-journey/
 │   ├── report_cards.txt       # Generated report card output
 │   └── reverse.py             # Sequence reversal via slicing and explicit loops
 │
-├── day5/
+├── day05/
 │   ├── Day05_Advanced_Python/
 │   │   ├── recursion_practice.py     # Recursive countdown, sum, factorial, fibonacci, reverse, power
 │   │   └── lambdas_and_builtins.py   # Anonymous lambda functions, map(), and filter()
@@ -56,7 +56,7 @@ python-learning-journey/
 │   └── Mini_Projects/
 │       └── stack_queue_simulator.py  # Menu-driven Stack & Queue console emulator
 │
-├── day6/
+├── day06/
 │   ├── DSA/
 │   │   ├── count_occurrences.py      # Target frequency count without .count()
 │   │   ├── frequency_counter.py      # Full frequency map via dictionary
@@ -67,7 +67,7 @@ python-learning-journey/
 │       ├── numpy_basics.py           # 1D/2D array inspection & reshaping
 │       └── student_performance.py    # 2D array statistics across axes
 │
-├── day7/
+├── day07/
 │   ├── DSA/
 │   │   ├── binary_search.py          # Iterative & recursive binary search
 │   │   ├── floor_and_ceiling.py      # Bound search in sorted array
@@ -80,7 +80,7 @@ python-learning-journey/
 │       ├── boolean_masking.py        # Outlier filtering and imputation
 │       └── broadcasting_basics.py    # Dimension expansion & row/col operations
 │
-├── day8/
+├── day08/
 │   ├── DSA/
 │   │   ├── remove_element.py         # Two-pointer in-place value removal
 │   │   ├── two_sum_sorted.py         # Two-pointer pair sum on sorted array
@@ -90,7 +90,7 @@ python-learning-journey/
 │       ├── data_inspection.py        # Profiling via head, tail, info, and describe
 │       └── series_and_dataframes.py  # Series indexing and DataFrame creation
 │
-├── day9/
+├── day09/
 │   ├── DSA/
 │   │   ├── contains_duplicate_ii.py  # Sliding window with set for nearby duplicates
 │   │   ├── max_sum_subarray.py       # Fixed-size sliding window (size k)
@@ -121,12 +121,9 @@ Clone the repository and run any module directly:
 git clone [https://github.com/soumilichanda/python-learning-journey.git](https://github.com/soumilichanda/python-learning-journey.git)
 cd python-learning-journey
 
-# Example: Run Day 5 Advanced Python recursion tasks
-python day5/Day05_Advanced_Python/recursion_practice.py
+# Example: Run Day 10 Peak Element Algorithm
+python day10/DSA/peak_element.py
 
-# Example: Run Day 6 Student Performance NumPy script
-python day6/NumPy/student_performance.py
-
-# Example: Run the Stack & Queue Simulator Mini-Project
-python day5/Mini_Projects/stack_queue_simulator.py
+# Example: Run Day 10 Pandas GroupBy Aggregations
+python day10/Pandas/groupby_aggregations.py
 ```
