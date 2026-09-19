@@ -90,15 +90,25 @@ python-learning-journey/
 │       ├── data_inspection.py        # Profiling via head, tail, info, and describe
 │       └── series_and_dataframes.py  # Series indexing and DataFrame creation
 │
-└── day9/
+├── day9/
+│   ├── DSA/
+│   │   ├── contains_duplicate_ii.py  # Sliding window with set for nearby duplicates
+│   │   ├── max_sum_subarray.py       # Fixed-size sliding window (size k)
+│   │   └── smallest_subarray_sum.py  # Dynamic-size sliding window (target sum)
+│   │
+│   └── Pandas/
+│       ├── filtering_selection.py    # Conditional filtering, .loc vs .iloc indexing
+│       └── handling_missing_data.py  # isna(), fillna(), dropna(), and forward/backward fill
+│
+└── day10/
     ├── DSA/
-    │   ├── contains_duplicate_ii.py  # Sliding window with set for nearby duplicates
-    │   ├── max_sum_subarray.py       # Fixed-size sliding window (size k)
-    │   └── smallest_subarray_sum.py  # Dynamic-size sliding window (target sum)
+    │   ├── peak_element.py            # Finding a local peak element in O(log n)
+    │   ├── search_rotated_array.py    # Binary search in a rotated sorted array
+    │   └── search_2d_matrix.py        # Matrix search using virtual 1D index mapping
     │
     └── Pandas/
-        ├── filtering_selection.py    # Conditional filtering, .loc vs .iloc indexing
-        └── handling_missing_data.py  # isna(), fillna(), dropna(), and forward/backward fill      
+        ├── groupby_aggregations.py    # GroupBy splits, multi-column aggregates, and transforms
+        └── feature_transformations.py # Value binning (pd.cut), string operations, and derived columns
 ```
 
 ---
