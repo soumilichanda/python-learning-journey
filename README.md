@@ -110,15 +110,25 @@ python-learning-journey/
 │       ├── groupby_aggregations.py    # GroupBy splits, multi-column aggregates, and transforms
 │       └── feature_transformations.py # Value binning (pd.cut), string operations, and derived columns
 │
-└── day11/
+├── day11/
+│   ├── DSA/
+│   │   ├── merge_sort.py              # Divide-and-conquer merge sort
+│   │   ├── merge_sorted_arrays.py     # Three-pointer backwards in-place merge
+│   │   └── sort_colors.py             # Dutch National Flag three-way partitioning
+│   │
+│   └── Visualization/
+│       ├── eda_distributions.py       # Histograms, KDE, and boxplots for outlier analysis
+│       └── model_evaluation_plots.py  # Loss curve tracking and confusion matrix heatmap
+│
+└── day12/
     ├── DSA/
-    │   ├── merge_sort.py              # Divide-and-conquer merge sort
-    │   ├── merge_sorted_arrays.py     # Three-pointer backwards in-place merge
-    │   └── sort_colors.py             # Dutch National Flag three-way partitioning
+    │   ├── two_sum_hashmap.py         # One-pass hash map complement search in O(n)
+    │   ├── valid_anagram.py           # Character frequency hash table comparison
+    │   └── group_anagrams.py          # Character frequency tuple signatures for grouping
     │
-    └── Visualization/
-        ├── eda_distributions.py       # Histograms, KDE, and boxplots for outlier analysis
-        └── model_evaluation_plots.py  # Loss curve tracking and confusion matrix heatmap
+    └── Vision_Prep/
+        ├── image_resizing_scaling.py  # Nearest-neighbor resize and [0.0, 1.0] scaling
+        └── image_augmentations.py     # Horizontal flip, brightness delta, and Gaussian noise
 ```
 
 ---
