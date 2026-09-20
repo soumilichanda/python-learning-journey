@@ -100,15 +100,25 @@ python-learning-journey/
 │       ├── filtering_selection.py    # Conditional filtering, .loc vs .iloc indexing
 │       └── handling_missing_data.py  # isna(), fillna(), dropna(), and forward/backward fill
 │
-└── day10/
+├── day10/
+│   ├── DSA/
+│   │   ├── peak_element.py            # Finding a local peak element in O(log n)
+│   │   ├── search_rotated_array.py    # Binary search in a rotated sorted array
+│   │   └── search_2d_matrix.py        # Matrix search using virtual 1D index mapping
+│   │
+│   └── Pandas/
+│       ├── groupby_aggregations.py    # GroupBy splits, multi-column aggregates, and transforms
+│       └── feature_transformations.py # Value binning (pd.cut), string operations, and derived columns
+│
+└── day11/
     ├── DSA/
-    │   ├── peak_element.py            # Finding a local peak element in O(log n)
-    │   ├── search_rotated_array.py    # Binary search in a rotated sorted array
-    │   └── search_2d_matrix.py        # Matrix search using virtual 1D index mapping
+    │   ├── merge_sort.py              # Divide-and-conquer merge sort
+    │   ├── merge_sorted_arrays.py     # Three-pointer backwards in-place merge
+    │   └── sort_colors.py             # Dutch National Flag three-way partitioning
     │
-    └── Pandas/
-        ├── groupby_aggregations.py    # GroupBy splits, multi-column aggregates, and transforms
-        └── feature_transformations.py # Value binning (pd.cut), string operations, and derived columns
+    └── Visualization/
+        ├── eda_distributions.py       # Histograms, KDE, and boxplots for outlier analysis
+        └── model_evaluation_plots.py  # Loss curve tracking and confusion matrix heatmap
 ```
 
 ---
