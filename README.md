@@ -120,15 +120,25 @@ python-learning-journey/
 │       ├── eda_distributions.py       # Histograms, KDE, and boxplots for outlier analysis
 │       └── model_evaluation_plots.py  # Loss curve tracking and confusion matrix heatmap
 │
-└── day12/
+├── day12/
+│   ├── DSA/
+│   │   ├── two_sum_hashmap.py         # One-pass hash map complement search in O(n)
+│   │   ├── valid_anagram.py           # Character frequency hash table comparison
+│   │   └── group_anagrams.py          # Character frequency tuple signatures for grouping
+│   │
+│   └── Vision_Prep/
+│       ├── image_resizing_scaling.py  # Nearest-neighbor resize and [0.0, 1.0] scaling
+│       └── image_augmentations.py     # Horizontal flip, brightness delta, and Gaussian noise
+│
+└── day13/
     ├── DSA/
-    │   ├── two_sum_hashmap.py         # One-pass hash map complement search in O(n)
-    │   ├── valid_anagram.py           # Character frequency hash table comparison
-    │   └── group_anagrams.py          # Character frequency tuple signatures for grouping
+    │   ├── singly_linked_list.py      # Node creation, head/tail insertion, traversal
+    │   ├── delete_node.py             # Pointer manipulation for head, middle, tail deletion
+    │   └── search_linked_list.py      # Element search and iterative length traversal
     │
-    └── Vision_Prep/
-        ├── image_resizing_scaling.py  # Nearest-neighbor resize and [0.0, 1.0] scaling
-        └── image_augmentations.py     # Horizontal flip, brightness delta, and Gaussian noise
+    └── ML_Foundations/
+        ├── train_test_split.py        # Random permutation dataset partitioning in pure NumPy
+        └── feature_scaling_prep.py    # Zero-leakage MinMax & Standard scaling
 ```
 
 ---
