@@ -130,15 +130,25 @@ python-learning-journey/
 │       ├── image_resizing_scaling.py  # Nearest-neighbor resize and [0.0, 1.0] scaling
 │       └── image_augmentations.py     # Horizontal flip, brightness delta, and Gaussian noise
 │
-└── day13/
+├── day13/
+│   ├── DSA/
+│   │   ├── singly_linked_list.py      # Node creation, head/tail insertion, traversal
+│   │   ├── delete_node.py             # Pointer manipulation for head, middle, tail deletion
+│   │   └── search_linked_list.py      # Element search and iterative length traversal
+│   │
+│   └── ML_Foundations/
+│       ├── train_test_split.py        # Random permutation dataset partitioning in pure NumPy
+│       └── feature_scaling_prep.py    # Zero-leakage MinMax & Standard scaling
+│
+└── day14/
     ├── DSA/
-    │   ├── singly_linked_list.py      # Node creation, head/tail insertion, traversal
-    │   ├── delete_node.py             # Pointer manipulation for head, middle, tail deletion
-    │   └── search_linked_list.py      # Element search and iterative length traversal
+    │   ├── reverse_linked_list.py     # In-place iterative 3-pointer list reversal
+    │   ├── linked_list_cycle.py       # Floyd's cycle detection via two-speed pointers
+    │   └── middle_of_linked_list.py   # Fast and slow pointer midpoint lookup
     │
-    └── ML_Foundations/
-        ├── train_test_split.py        # Random permutation dataset partitioning in pure NumPy
-        └── feature_scaling_prep.py    # Zero-leakage MinMax & Standard scaling
+    └── ML_Classification/
+        ├── logistic_regression.py     # Sigmoid, binary cross-entropy, and gradient descent
+        └── model_evaluation.py        # Confusion matrix, Precision, Recall, and F1 calculations
 ```
 
 ---
