@@ -150,14 +150,24 @@ python-learning-journey/
 │       ├── logistic_regression.py     # Sigmoid, binary cross-entropy, and gradient descent
 │       └── model_evaluation.py        # Confusion matrix, Precision, Recall, and F1 calculations
 │
-└── day15/
+├── day15/
+│   ├── DSA/
+│   │   ├── next_greater_element.py    # Monotonic decreasing stack in O(n)
+│   │   └── valid_parentheses.py       # Stack validation with hash map matching
+│   │
+│   └── ML_Evaluation/
+│       ├── diagnostic_report.py       # Multi-metric classification evaluation suite
+│       └── threshold_analysis.py      # Threshold tuning and Precision-Recall tradeoffs
+│
+└── day16/
     ├── DSA/
-    │   ├── next_greater_element.py    # Monotonic decreasing stack in O(n)
-    │   └── valid_parentheses.py       # Stack validation with hash map matching
+    │   ├── circular_queue.py          # Fixed-buffer ring queue with modular arithmetic
+    │   ├── queue_via_stacks.py        # FIFO queue using two LIFO stacks
+    │   └── sliding_window_max.py      # Monotonic double-ended queue in O(n)
     │
-    └── ML_Evaluation/
-        ├── diagnostic_report.py       # Multi-metric classification evaluation suite
-        └── threshold_analysis.py      # Threshold tuning and Precision-Recall tradeoffs
+    └── ML_Supervised/
+        ├── decision_tree_entropy.py   # Information Gain and Shannon Entropy splitting
+        └── svm_decision_boundary.py   # Linear SVM margin width and C-penalty analysis
 ```
 
 ---
