@@ -140,15 +140,24 @@ python-learning-journey/
 │       ├── train_test_split.py        # Random permutation dataset partitioning in pure NumPy
 │       └── feature_scaling_prep.py    # Zero-leakage MinMax & Standard scaling
 │
-└── day14/
+├── day14/
+│   ├── DSA/
+│   │   ├── linked_list_cycle.py       # Floyd's cycle detection via two-speed pointers
+│   │   ├── middle_of_linked_list.py   # Fast and slow pointer midpoint lookup
+│   │   └── reverse_linked_list.py     # In-place iterative 3-pointer list reversal
+│   │
+│   └── ML_Classification/
+│       ├── logistic_regression.py     # Sigmoid, binary cross-entropy, and gradient descent
+│       └── model_evaluation.py        # Confusion matrix, Precision, Recall, and F1 calculations
+│
+└── day15/
     ├── DSA/
-    │   ├── reverse_linked_list.py     # In-place iterative 3-pointer list reversal
-    │   ├── linked_list_cycle.py       # Floyd's cycle detection via two-speed pointers
-    │   └── middle_of_linked_list.py   # Fast and slow pointer midpoint lookup
+    │   ├── next_greater_element.py    # Monotonic decreasing stack in O(n)
+    │   └── valid_parentheses.py       # Stack validation with hash map matching
     │
-    └── ML_Classification/
-        ├── logistic_regression.py     # Sigmoid, binary cross-entropy, and gradient descent
-        └── model_evaluation.py        # Confusion matrix, Precision, Recall, and F1 calculations
+    └── ML_Evaluation/
+        ├── diagnostic_report.py       # Multi-metric classification evaluation suite
+        └── threshold_analysis.py      # Threshold tuning and Precision-Recall tradeoffs
 ```
 
 ---
