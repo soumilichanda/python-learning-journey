@@ -169,14 +169,23 @@ python-learning-journey/
 │       ├── decision_tree_entropy.py   # Information Gain and Shannon Entropy splitting
 │       └── svm_decision_boundary.py   # Linear SVM margin width and C-penalty analysis
 │
-└── day17/
+├── day17/
+│   ├── DSA/
+│   │   ├── combination_sum.py         # Backtracking with branch pruning and element reuse
+│   │   └── recursion_subsets.py       # Backtracking power set decision tree in O(2^n)
+│   │
+│   └── ML_Ensembles/
+│       ├── grid_search_tuning.py      # Cross-validated hyperparameter grid sweep (GridSearchCV)
+│       └── random_forest_builder.py   # Bagging & feature subsampling random forest from scratch
+│
+└── day18/
     ├── DSA/
-    │   ├── combination_sum.py         # Backtracking with branch pruning and element reuse
-    │   └── recursion_subsets.py       # Backtracking power set decision tree in O(2^n)
+    │   ├── combinations.py            # Combinatorial branch-pruned backtracking
+    │   └── permutations.py            # State-space permutations via boolean tracking
     │
-    └── ML_Ensembles/
-        ├── grid_search_tuning.py      # Cross-validated hyperparameter grid sweep (GridSearchCV)
-        └── random_forest_builder.py   # Bagging & feature subsampling random forest from scratch
+    └── ML_Pipelines/
+        ├── column_transformer_prep.py # Multi-type ColumnTransformer with scaling and encoding
+        └── reusable_pipeline.py       # Leak-free cross-validated Pipeline workflow
 ```
 
 ---
