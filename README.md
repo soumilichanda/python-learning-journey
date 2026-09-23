@@ -159,15 +159,24 @@ python-learning-journey/
 │       ├── diagnostic_report.py       # Multi-metric classification evaluation suite
 │       └── threshold_analysis.py      # Threshold tuning and Precision-Recall tradeoffs
 │
-└── day16/
+├── day16/
+│   ├── DSA/
+│   │   ├── circular_queue.py          # Fixed-buffer ring queue with modular arithmetic
+│   │   ├── queue_via_stacks.py        # FIFO queue using two LIFO stacks
+│   │   └── sliding_window_max.py      # Monotonic double-ended queue in O(n)
+│   │
+│   └── ML_Supervised/
+│       ├── decision_tree_entropy.py   # Information Gain and Shannon Entropy splitting
+│       └── svm_decision_boundary.py   # Linear SVM margin width and C-penalty analysis
+│
+└── day17/
     ├── DSA/
-    │   ├── circular_queue.py          # Fixed-buffer ring queue with modular arithmetic
-    │   ├── queue_via_stacks.py        # FIFO queue using two LIFO stacks
-    │   └── sliding_window_max.py      # Monotonic double-ended queue in O(n)
+    │   ├── combination_sum.py         # Backtracking with branch pruning and element reuse
+    │   └── recursion_subsets.py       # Backtracking power set decision tree in O(2^n)
     │
-    └── ML_Supervised/
-        ├── decision_tree_entropy.py   # Information Gain and Shannon Entropy splitting
-        └── svm_decision_boundary.py   # Linear SVM margin width and C-penalty analysis
+    └── ML_Ensembles/
+        ├── grid_search_tuning.py      # Cross-validated hyperparameter grid sweep (GridSearchCV)
+        └── random_forest_builder.py   # Bagging & feature subsampling random forest from scratch
 ```
 
 ---
