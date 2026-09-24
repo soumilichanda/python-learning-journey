@@ -187,13 +187,22 @@ python-learning-journey/
 │       ├── column_transformer_prep.py # Multi-type ColumnTransformer with scaling and encoding
 │       └── reusable_pipeline.py       # Leak-free cross-validated Pipeline workflow
 │
-└── day19/
+├── day19/
+│   ├── DSA/
+│   │   ├── subsets_ii.py              # Backtracking with duplicate suppression
+│   │   └── word_search.py             # 2D grid DFS backtracking with in-place cell marking
+│   │
+│   └── Mini_Projects/
+│       └── ml_pipeline_engine.py      # Milestone 2: Modular ML classification pipeline engine
+│
+└── day20/
     ├── DSA/
-    │   ├── subsets_ii.py              # Backtracking with duplicate suppression
-    │   └── word_search.py             # 2D grid DFS backtracking with in-place cell marking
+    │   ├── binary_tree_traversals.py  # DFS Traversals: In-order, Pre-order, Post-order
+    │   └── max_depth_binary_tree.py   # Recursive depth computation & leaf invariants
     │
-    └── Mini_Projects/
-        └── ml_pipeline_engine.py      # Milestone 2: Modular ML classification pipeline engine
+    └── Tensors/
+        ├── autograd_simulation.py     # Computational graph forward pass & manual backprop
+        └── tensor_mechanics.py        # Strides, memory layouts, rank, shape & device dispatch
 ```
 
 ---
