@@ -178,14 +178,22 @@ python-learning-journey/
 │       ├── grid_search_tuning.py      # Cross-validated hyperparameter grid sweep (GridSearchCV)
 │       └── random_forest_builder.py   # Bagging & feature subsampling random forest from scratch
 │
-└── day18/
+├── day18/
+│   ├── DSA/
+│   │   ├── combinations.py            # Combinatorial branch-pruned backtracking
+│   │   └── permutations.py            # State-space permutations via boolean tracking
+│   │
+│   └── ML_Pipelines/
+│       ├── column_transformer_prep.py # Multi-type ColumnTransformer with scaling and encoding
+│       └── reusable_pipeline.py       # Leak-free cross-validated Pipeline workflow
+│
+└── day19/
     ├── DSA/
-    │   ├── combinations.py            # Combinatorial branch-pruned backtracking
-    │   └── permutations.py            # State-space permutations via boolean tracking
+    │   ├── subsets_ii.py              # Backtracking with duplicate suppression
+    │   └── word_search.py             # 2D grid DFS backtracking with in-place cell marking
     │
-    └── ML_Pipelines/
-        ├── column_transformer_prep.py # Multi-type ColumnTransformer with scaling and encoding
-        └── reusable_pipeline.py       # Leak-free cross-validated Pipeline workflow
+    └── Mini_Projects/
+        └── ml_pipeline_engine.py      # Milestone 2: Modular ML classification pipeline engine
 ```
 
 ---
