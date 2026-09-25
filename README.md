@@ -204,17 +204,26 @@ python-learning-journey/
 │       ├── autograd_simulation.py     # Computational graph forward pass & manual backprop
 │       └── tensor_mechanics.py        # Strides, memory layouts, rank, shape & device dispatch
 │
-└── day21/
+├── day21/
+│   ├── DSA/
+│   │   ├── binary_tree_right_view.py  # BFS tracking the rightmost node per layer
+│   │   └── level_order_traversal.py   # BFS queue-based layer-by-layer traversal
+│   │
+│   ├── Mini_Projects/
+│   │   └── task_scheduler.py          # Milestone 3: In-memory task scheduler & transaction engine
+│   │
+│   └── Optimizers/
+│       ├── gradient_descent_engine.py # Gradient calculation & parameter updates in NumPy
+│       └── loss_functions.py          # Vectorized MSE & Categorical Cross-Entropy
+│
+└── day22/
     ├── DSA/
-    │   ├── binary_tree_right_view.py  # BFS tracking the rightmost node per layer
-    │   └── level_order_traversal.py   # BFS queue-based layer-by-layer traversal
+    │   ├── bst_operations.py          # BST node insertion, search, and min/max lookup
+    │   └── validate_bst.py            # Strict monotonic range validation in O(n)
     │
-    ├── Mini_Projects/
-    │   └── task_scheduler.py          # Milestone 3: In-memory task scheduler & transaction engine
-    │
-    └── Optimizers/
-        ├── gradient_descent_engine.py # Gradient calculation & parameter updates in NumPy
-        └── loss_functions.py          # Vectorized MSE & Categorical Cross-Entropy
+    └── Deep_Learning/
+        ├── linear_neuron_classifier.py# Sigmoid perceptron with cross-entropy update rule
+        └── perceptron_scratch.py      # Binary step perceptron learning algorithm
 ```
 
 ---
