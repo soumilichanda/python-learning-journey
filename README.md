@@ -195,14 +195,26 @@ python-learning-journey/
 │   └── Mini_Projects/
 │       └── ml_pipeline_engine.py      # Milestone 2: Modular ML classification pipeline engine
 │
-└── day20/
+├── day20/
+│   ├── DSA/
+│   │   ├── binary_tree_traversals.py  # DFS Traversals: In-order, Pre-order, Post-order
+│   │   └── max_depth_binary_tree.py   # Recursive depth computation & leaf invariants
+│   │
+│   └── Tensors/
+│       ├── autograd_simulation.py     # Computational graph forward pass & manual backprop
+│       └── tensor_mechanics.py        # Strides, memory layouts, rank, shape & device dispatch
+│
+└── day21/
     ├── DSA/
-    │   ├── binary_tree_traversals.py  # DFS Traversals: In-order, Pre-order, Post-order
-    │   └── max_depth_binary_tree.py   # Recursive depth computation & leaf invariants
+    │   ├── binary_tree_right_view.py  # BFS tracking the rightmost node per layer
+    │   └── level_order_traversal.py   # BFS queue-based layer-by-layer traversal
     │
-    └── Tensors/
-        ├── autograd_simulation.py     # Computational graph forward pass & manual backprop
-        └── tensor_mechanics.py        # Strides, memory layouts, rank, shape & device dispatch
+    ├── Mini_Projects/
+    │   └── task_scheduler.py          # Milestone 3: In-memory task scheduler & transaction engine
+    │
+    └── Optimizers/
+        ├── gradient_descent_engine.py # Gradient calculation & parameter updates in NumPy
+        └── loss_functions.py          # Vectorized MSE & Categorical Cross-Entropy
 ```
 
 ---
