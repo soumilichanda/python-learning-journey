@@ -216,14 +216,23 @@ python-learning-journey/
 │       ├── gradient_descent_engine.py # Gradient calculation & parameter updates in NumPy
 │       └── loss_functions.py          # Vectorized MSE & Categorical Cross-Entropy
 │
-└── day22/
+├── day22/
+│   ├── DSA/
+│   │   ├── bst_operations.py          # BST node insertion, search, and min/max lookup
+│   │   └── validate_bst.py            # Strict monotonic range validation in O(n)
+│   │
+│   └── Deep_Learning/
+│       ├── linear_neuron_classifier.py# Sigmoid perceptron with cross-entropy update rule
+│       └── perceptron_scratch.py      # Binary step perceptron learning algorithm
+│
+└── day23/
     ├── DSA/
-    │   ├── bst_operations.py          # BST node insertion, search, and min/max lookup
-    │   └── validate_bst.py            # Strict monotonic range validation in O(n)
+    │   ├── kth_largest_element.py     # Min-Heap of size k for O(n log k) stream ranking
+    │   └── top_k_frequent.py          # Frequency hash map combined with heap extraction
     │
     └── Deep_Learning/
-        ├── linear_neuron_classifier.py# Sigmoid perceptron with cross-entropy update rule
-        └── perceptron_scratch.py      # Binary step perceptron learning algorithm
+        ├── batch_data_loader.py       # Custom dataset batching, epoch shuffling, and drop_last logic
+        └── data_augmentation_ops.py   # Vectorized random cropping, flips, and normalization
 ```
 
 ---
