@@ -225,14 +225,23 @@ python-learning-journey/
 │       ├── linear_neuron_classifier.py# Sigmoid perceptron with cross-entropy update rule
 │       └── perceptron_scratch.py      # Binary step perceptron learning algorithm
 │
-└── day23/
-    ├── DSA/
-    │   ├── kth_largest_element.py     # Min-Heap of size k for O(n log k) stream ranking
-    │   └── top_k_frequent.py          # Frequency hash map combined with heap extraction
+├── day23/
+│   ├── DSA/
+│   │   ├── kth_largest_element.py     # Min-Heap of size k for O(n log k) stream ranking
+│   │   └── top_k_frequent.py          # Frequency hash map combined with heap extraction
+│   │
+│   └── Deep_Learning/
+│       ├── batch_data_loader.py       # Custom dataset batching, epoch shuffling, and drop_last logic
+│       └── data_augmentation_ops.py   # Vectorized random cropping, flips, and normalization
+│
+└── day24/
+    ├── CNN_Foundations/
+    │   ├── conv2d_scratch.py          # Vectorized 2D cross-correlation kernel with stride and padding
+    │   └── max_pooling_scratch.py     # Spatial downsampling engine with 2D pooling windows
     │
-    └── Deep_Learning/
-        ├── batch_data_loader.py       # Custom dataset batching, epoch shuffling, and drop_last logic
-        └── data_augmentation_ops.py   # Vectorized random cropping, flips, and normalization
+    └── DSA/
+        ├── find_center_star_graph.py  # Degree validation and center lookup in O(1) space
+        └── graph_representations.py   # Adjacency List vs. Adjacency Matrix conversions & vertex degree
 ```
 
 ---
