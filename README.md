@@ -243,16 +243,25 @@ python-learning-journey/
 │       ├── find_center_star_graph.py  # Degree validation and center lookup in O(1) space
 │       └── graph_representations.py   # Adjacency List vs. Adjacency Matrix conversions & vertex degree
 │
-└── day25/
+├── day25/
+│   ├── DSA/
+│   │   ├── graph_bfs_shortest_path.py # Unweighted shortest path using queue & parent mapping
+│   │   └── number_of_islands.py       # 2D grid BFS traversal with visited coordinate tracking
+│   │
+│   ├── Mini_Projects/
+│   │   └── vision_feature_harness.py  # Milestone 4: Multi-layer vision feature extractor & activation logger
+│   │
+│   └── Vision_Foundations/
+│       └── activation_functions.py    # Vectorized ReLU, LeakyReLU, and analytical forward/backward derivatives
+│
+└── day26/
     ├── DSA/
-    │   ├── graph_bfs_shortest_path.py # Unweighted shortest path using queue & parent mapping
-    │   └── number_of_islands.py       # 2D grid BFS traversal with visited coordinate tracking
-    │
-    ├── Mini_Projects/
-    │   └── vision_feature_harness.py  # Milestone 4: Multi-layer vision feature extractor & activation logger
+    │   ├── course_schedule_cycle.py          # Directed cycle detection via 3-color DFS state
+    │   └── graph_dfs_connected_components.py # Undirected component counting & traversal
     │
     └── Vision_Foundations/
-        └── activation_functions.py    # Vectorized ReLU, LeakyReLU, and analytical forward/backward derivatives
+        ├── cnn_layer_activation_maps.py       # Multi-filter activation logging & receptive field inspector
+        └── transfer_backbone_simulation.py   # Frozen feature-extractor simulation with trainable classifier head
 ```
 
 ---
