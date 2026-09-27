@@ -234,14 +234,25 @@ python-learning-journey/
 │       ├── batch_data_loader.py       # Custom dataset batching, epoch shuffling, and drop_last logic
 │       └── data_augmentation_ops.py   # Vectorized random cropping, flips, and normalization
 │
-└── day24/
-    ├── CNN_Foundations/
-    │   ├── conv2d_scratch.py          # Vectorized 2D cross-correlation kernel with stride and padding
-    │   └── max_pooling_scratch.py     # Spatial downsampling engine with 2D pooling windows
+├── day24/
+│   ├── CNN_Foundations/
+│   │   ├── conv2d_scratch.py          # Vectorized 2D cross-correlation kernel with stride and padding
+│   │   └── max_pooling_scratch.py     # Spatial downsampling engine with 2D pooling windows
+│   │
+│   └── DSA/
+│       ├── find_center_star_graph.py  # Degree validation and center lookup in O(1) space
+│       └── graph_representations.py   # Adjacency List vs. Adjacency Matrix conversions & vertex degree
+│
+└── day25/
+    ├── DSA/
+    │   ├── graph_bfs_shortest_path.py # Unweighted shortest path using queue & parent mapping
+    │   └── number_of_islands.py       # 2D grid BFS traversal with visited coordinate tracking
     │
-    └── DSA/
-        ├── find_center_star_graph.py  # Degree validation and center lookup in O(1) space
-        └── graph_representations.py   # Adjacency List vs. Adjacency Matrix conversions & vertex degree
+    ├── Mini_Projects/
+    │   └── vision_feature_harness.py  # Milestone 4: Multi-layer vision feature extractor & activation logger
+    │
+    └── Vision_Foundations/
+        └── activation_functions.py    # Vectorized ReLU, LeakyReLU, and analytical forward/backward derivatives
 ```
 
 ---
