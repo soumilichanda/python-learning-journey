@@ -294,22 +294,12 @@ python-learning-journey/
 ## 🏆 Key Engineering Milestones Built From Scratch
 
 | Milestone | Architecture & Module | Core Capabilities |
-| --- | --- | --- |
-| **Milestone 1** (Day 07) | `SensorSignalProcessor` | Vectorized outlier filtering, statistical imputation, and logarithmic search via pure NumPy.
-
- |
-| **Milestone 2** (Days 18–19) | `MLPipelineEngine` | Automated tabular ML training pipeline: zero-leakage custom scaling, train-test splitting, and threshold-tuned diagnostics.
-
- |
-| **Milestone 3** (Days 20–21) | `TaskScheduler` & `TransactionEngine` | In-memory priority scheduling, level-order BFS dependency resolution, and dual-stack undo/redo rollback engine.
-
- |
-| **Milestone 4** (Days 25–26) | `VisionFeatureHarness` | From-scratch computer vision engine: 2D cross-correlation kernels, spatial pooling, and layer-by-layer activation inspection.
-
- |
-| **Milestone 5** (Days 29–30) | `ProductionServingEngine` | Asynchronous FastAPI inference microservice, in-memory LRU prediction caching, and live latency telemetry.
-
- |
+| :--- | :--- | :--- |
+| **Milestone 1** (Day 07) | `SensorSignalProcessor` | Vectorized outlier filtering, statistical imputation, and logarithmic search via pure NumPy. |
+| **Milestone 2** (Days 18–19) | `MLPipelineEngine` | Automated tabular ML training pipeline: zero-leakage custom scaling, train-test splitting, and threshold-tuned diagnostics. |
+| **Milestone 3** (Days 20–21) | `TaskScheduler` & `TransactionEngine` | In-memory priority scheduling, level-order BFS dependency resolution, and dual-stack undo/redo rollback engine. |
+| **Milestone 4** (Days 25–26) | `VisionFeatureHarness` | From-scratch computer vision engine: 2D cross-correlation kernels, spatial pooling, and layer-by-layer activation inspection. |
+| **Milestone 5** (Days 29–30) | `ProductionServingEngine` | Asynchronous FastAPI inference microservice, in-memory LRU prediction caching, and live latency telemetry. |
 
 ---
 
@@ -318,7 +308,7 @@ python-learning-journey/
 Clone the repository and run any module directly:
 
 ```bash
-git clone [https://github.com/soumilichanda/python-learning-journey.git](https://github.com/soumilichanda/python-learning-journey.git)
+git clone https://github.com/soumilichanda/python-learning-journey.git
 cd python-learning-journey
 
 # Example: Run Day 29 Production Serving API
@@ -326,9 +316,3 @@ python day29/Production_Serving/app.py
 
 # Example: Run Day 30 Capstone System Benchmark
 python day30/Production_Capstone/system_benchmark.py
-
-```
-
-```
-
-```
