@@ -263,13 +263,21 @@ python-learning-journey/
 │       ├── cnn_layer_activation_maps.py      # Multi-filter activation logging & receptive field inspector
 │       └── transfer_backbone_simulation.py   # Frozen feature-extractor simulation with trainable classifier head
 │
-└── day27/
+├── day27/
+│   ├── DSA/
+│   │   ├── climbing_stairs.py        # Top-down memoization vs. bottom-up tabulation
+│   │   └── coin_change_min.py        # Unbounded knapsack 1D tabulation in O(amount * n)
+│   │
+│   └── Model_Serving/
+│       └── inference_dashboard.py    # Interactive web interface for tabular/vision model predictions
+│
+└── day28/
     ├── DSA/
-    │   ├── climbing_stairs.py        # Top-down memoization vs. bottom-up tabulation
-    │   └── coin_change_min.py        # Unbounded knapsack 1D tabulation in O(amount * n)
+    │   ├── longest_common_subseq.py   # Classical 2D DP LCS table construction in O(m * n)
+    │   └── unique_paths_grid.py       # 2D DP grid navigation with O(n) rolling-row space
     │
-    └── Model_Serving/
-        └── inference_dashboard.py    # Interactive web interface for tabular/vision model predictions
+    └── Model_Deployment/
+        └── artifact_packager.py       # Deterministic model serialization, metadata bundling & validation
 ```
 
 ---
