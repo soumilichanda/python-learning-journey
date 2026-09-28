@@ -279,14 +279,23 @@ python-learning-journey/
 │   └── Model_Deployment/
 │       └── artifact_packager.py      # Deterministic model serialization, metadata bundling & validation
 │
-└── day29/
+├── day29/
+│   ├── DSA/
+│   │   ├── knapsack_01.py                 # Classical 0/1 knapsack with rolling 1D DP array
+│   │   └── longest_increasing_subseq.py   # LIS via binary search patience sorting in O(n log n)
+│   │
+│   └── Production_Serving/
+│       ├── app.py                         # FastAPI microservice for batch & single prediction
+│       └── telemetry_logger.py            # Latency profiling, request counter & drift metrics
+│
+└── day30/
     ├── DSA/
-    │   ├── knapsack_01.py                # Classical 0/1 knapsack with rolling 1D DP array
-    │   └── longest_increasing_subseq.py  # LIS via binary search patience sorting in O(n log n)
+    │   ├── bit_manipulation_ops.py        # Bitwise manipulation invariants (Hamming weight & single number)
+    │   └── min_cost_climbing_stairs.py    # Space-optimized bottom-up DP in O(1) auxiliary space
     │
-    └── Production_Serving/
-        ├── app.py                        # FastAPI microservice for batch & single prediction
-        └── telemetry_logger.py           # Latency profiling, request counter & drift metrics
+    └── Production_Capstone/
+        ├── inference_cache.py             # LRU caching layer for deterministic model serving
+        └── system_benchmark.py            # Latency profiling, throughput stress testing & telemetry report
 ```
 
 ---
