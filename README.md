@@ -271,13 +271,22 @@ python-learning-journey/
 │   └── Model_Serving/
 │       └── inference_dashboard.py    # Interactive web interface for tabular/vision model predictions
 │
-└── day28/
+├── day28/
+│   ├── DSA/
+│   │   ├── longest_common_subseq.py  # Classical 2D DP LCS table construction in O(m * n)
+│   │   └── unique_paths_grid.py      # 2D DP grid navigation with O(n) rolling-row space
+│   │
+│   └── Model_Deployment/
+│       └── artifact_packager.py      # Deterministic model serialization, metadata bundling & validation
+│
+└── day29/
     ├── DSA/
-    │   ├── longest_common_subseq.py   # Classical 2D DP LCS table construction in O(m * n)
-    │   └── unique_paths_grid.py       # 2D DP grid navigation with O(n) rolling-row space
+    │   ├── knapsack_01.py                # Classical 0/1 knapsack with rolling 1D DP array
+    │   └── longest_increasing_subseq.py  # LIS via binary search patience sorting in O(n log n)
     │
-    └── Model_Deployment/
-        └── artifact_packager.py       # Deterministic model serialization, metadata bundling & validation
+    └── Production_Serving/
+        ├── app.py                        # FastAPI microservice for batch & single prediction
+        └── telemetry_logger.py           # Latency profiling, request counter & drift metrics
 ```
 
 ---
