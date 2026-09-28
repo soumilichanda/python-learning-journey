@@ -254,14 +254,22 @@ python-learning-journey/
 │   └── Vision_Foundations/
 │       └── activation_functions.py    # Vectorized ReLU, LeakyReLU, and analytical forward/backward derivatives
 │
-└── day26/
+├── day26/
+│   ├── DSA/
+│   │   ├── course_schedule_cycle.py          # Directed cycle detection via 3-color DFS state
+│   │   └── graph_dfs_connected_components.py # Undirected component counting & traversal
+│   │
+│   └── Vision_Foundations/
+│       ├── cnn_layer_activation_maps.py      # Multi-filter activation logging & receptive field inspector
+│       └── transfer_backbone_simulation.py   # Frozen feature-extractor simulation with trainable classifier head
+│
+└── day27/
     ├── DSA/
-    │   ├── course_schedule_cycle.py          # Directed cycle detection via 3-color DFS state
-    │   └── graph_dfs_connected_components.py # Undirected component counting & traversal
+    │   ├── climbing_stairs.py        # Top-down memoization vs. bottom-up tabulation
+    │   └── coin_change_min.py        # Unbounded knapsack 1D tabulation in O(amount * n)
     │
-    └── Vision_Foundations/
-        ├── cnn_layer_activation_maps.py       # Multi-filter activation logging & receptive field inspector
-        └── transfer_backbone_simulation.py   # Frozen feature-extractor simulation with trainable classifier head
+    └── Model_Serving/
+        └── inference_dashboard.py    # Interactive web interface for tabular/vision model predictions
 ```
 
 ---
